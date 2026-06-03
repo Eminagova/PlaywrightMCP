@@ -1,0 +1,44 @@
+[
+  {
+    "username": "standard_user",
+    "password": "secret_sauce",
+    "scenario": "positive",
+    "expectedBehavior": "successful_login",
+    "description": "Standard user with successful login"
+  },
+  {
+    "username": "locked_out_user",
+    "password": "secret_sauce",
+    "scenario": "negative",
+    "expectedBehavior": "locked_out_error",
+    "description": "User account is locked out"
+  },
+  {
+    "username": "problem_user",
+    "password": "secret_sauce",
+    "scenario": "positive",
+    "expectedBehavior": "successful_login_with_visual_glitches",
+    "description": "User with visual rendering problems"
+  },
+  {
+    "username": "performance_glitch_user",
+    "password": "secret_sauce",
+    "scenario": "positive",
+    "expectedBehavior": "successful_login_slow",
+    "description": "User with performance issues during login"
+  },
+  {
+    "username": "error_user",
+    "password": "secret_sauce",
+    "scenario": "positive",
+    "expectedBehavior": "successful_login_with_errors",
+    "description": "User experiencing action errors"
+  },
+  {
+    "username": "visual_user",
+    "password": "secret_sauce",
+    "scenario": "positive",
+    "expectedBehavior": "successful_login_visual_issues",
+    "description": "User with visual inconsistencies"
+  }
+]
